@@ -1,8 +1,12 @@
-btn.addEventListener("click", () => {
-    const unodered = document.querySelector("ul");
-    const input = document.querySelector("input");
-    const btn = document.querySelector("button");
+const unodered = document.querySelector("ul");
+const input = document.querySelector("input");
+const btn = document.querySelector("button");
 
+
+
+btn.addEventListener("click", () => {
+
+    
     const  inputElement = input.value;
     console.log(inputElement);
     input.value = "";
